@@ -21,3 +21,6 @@ for(let i=0;i<a.length;i++){
 }
 let missingNumber = ssum-aactualSum;
 console.log(missingNumber)
+
+// short
+console.log((a.length*(a.length+1))/2-a.reduce((total, current)=> total+current, 0))

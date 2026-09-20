@@ -44,7 +44,8 @@ function Majortiy2(){
 
 // console.log(Majortiy2())
 
-let c = [2, 2, 2, 1, 1, 1, 2];
+let c = [2, 1, 1, 1, 1, 1, 2];
+
 function Maj(){
     
     let ans = 0;
