@@ -27,7 +27,6 @@ let max = 0
 
 while(left < right){
     let width = right - left;
-    let height = a[left];
     let minHeight;
     if ( a[left] < a[right]){
         minHeight  = a[left]
